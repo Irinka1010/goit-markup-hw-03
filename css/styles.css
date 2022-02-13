@@ -1,0 +1,203 @@
+:root {
+  /* Основные шрифты */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Цвет текста */
+  --primary-txt-cl: #212121;
+  --accent-txt-cl: #2196f3;
+  --secondary-txt-cl: #757575;
+  --primary-dark-txt: #ffffff;
+}
+body {
+  /* font-family: var(--main-font); */
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt-cl);
+}
+.link {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Шапка */
+.logo,
+.logo-element {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-element {
+  color: #2196f3;
+}
+.nav-link,
+.header-email,
+.header-phone {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-txt-cl);
+}
+.nav-link:hover,
+.nav-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-txt-cl);
+}
+.header-email,
+.header-phone {
+  color: var(--secondary-txt-cl);
+}
+.header {
+  background-color: #ffffff;
+}
+/* Герой */
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-dark-txt);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: var(--primary-dark-txt);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.features-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-txt-cl);
+}
+.features-text {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt-cl);
+}
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-caption {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt-cl);
+}
+.team-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--primary-dark-txt);
+}
+
+.footer-email,
+.footer-email:hover,
+.footer-email:focus,
+.footer-phone,
+.footer-phone:hover,
+.footer-phone:focus {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+
+/* Портфолио */
+.filter-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt-cl);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-dark-txt);
+  background-color: var(--accent-txt-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.work-caption {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-txt-cl);
+}
+.work-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
