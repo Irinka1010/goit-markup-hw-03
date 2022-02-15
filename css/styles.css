@@ -22,6 +22,16 @@ body {
 ul {
   list-style: none;
 }
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container{
+width: 1230px;
+padding-left: 15px;
+padding-right: 15px;
+
+}
 /* Шапка */
 .logo,
 .logo-element {
@@ -61,7 +71,13 @@ ul {
   background-color: #ffffff;
 }
 /* Герой */
+.hero{
+  text-align: center;
+}
 .hero-title {
+  margin-bottom: 30px;
+  padding-top:  200px;
+  
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
@@ -70,11 +86,14 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-dark-txt);
+
+ 
 }
 .hero {
   background-color: #2f303a;
 }
 .hero-button {
+  
   background-color: #2196f3;
   color: var(--primary-dark-txt);
   font-family: var(--main-font);
