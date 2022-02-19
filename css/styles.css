@@ -215,6 +215,10 @@ ol {
 }
 
 /* Чем мы занимаемся */
+.occupation {
+  padding-top: 88px;
+  padding-bottom: 93px;
+}
 .section-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -227,13 +231,13 @@ ol {
 .section-title {
   margin-bottom: 50px;
 }
+
 .occupation-list {
   display: flex;
   padding: 0px;
 }
 .occupation-item {
   margin-right: 30px;
-  padding-bottom: 93px;
   flex-basis: calc(100% / 3 - 60px);
 }
 .occupation-item:last-child {
@@ -243,14 +247,13 @@ ol {
 /* Наша команда */
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.section-title {
-  margin-bottom: 40px;
-  padding-top: 88px;
-}
+
 .team-list {
   display: flex;
-  padding-bottom: 101px;
+  padding-left: 0;
 }
 .team-item {
   flex-basis: calc(100% / 4 - 90px);
@@ -383,16 +386,18 @@ ol {
   color: var(--secondary-txt-cl);
 }
 /* Наши работы */
+.work {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   padding-left: 0;
 }
 .work-filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-left: 0;
   margin-bottom: 50px;
 }
