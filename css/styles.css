@@ -35,23 +35,30 @@ ol {
   margin-bottom: 0;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 /* Шапка */
+.header-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ececec;
+}
 
 .header {
-  display: flex;
-  border-bottom: 1px solid #ececec;
-  width: 1600px;
-  /* padding-bottom: 20px; */
   background-color: #ffffff;
+  padding-bottom: 20px;
 }
-.header-nav {
+.nav {
   display: flex;
+  align-items: center;
 }
 
 .logo,
@@ -66,9 +73,8 @@ ol {
 .logo-element {
   color: #2196f3;
 }
-.header-logo {
+.logo {
   margin-right: 93px;
-  margin-left: 215px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -125,15 +131,21 @@ ol {
 
 /* Герой */
 .hero {
+  background-color: #2f303a;
+}
+
+.container-hero {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 180px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 220px;
 }
 .hero-title {
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 30px;
-  padding-top: 200px;
 
   font-family: var(--main-font);
   font-weight: 900;
@@ -144,9 +156,7 @@ ol {
   text-transform: uppercase;
   color: var(--primary-dark-txt);
 }
-.hero {
-  background-color: #2f303a;
-}
+
 .hero-button {
   padding: 10px 32px;
   border-radius: 4px;
@@ -167,6 +177,10 @@ ol {
   border-radius: 4px;
   cursor: pointer;
 }
+/* Наши особенности */
+.features {
+  padding-top: 94px;
+}
 .features-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -184,17 +198,14 @@ ol {
   color: var(--secondary-txt-cl);
 }
 
-/* Наши особенности */
 .features-list {
   display: flex;
   align-items: center;
-  width: 1170px;
-  padding-top: 94px;
+  padding-left: 0;
 }
 .features-item {
   width: 270px;
   margin-right: 30px;
-  flex-basis: calc(100% / 3 - 90px);
 }
 .features-item:last-child {
   margin: 0;
