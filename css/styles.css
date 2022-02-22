@@ -234,7 +234,7 @@ img {
 }
 .occupation-item {
   margin-right: 30px;
-  flex-basis: calc(100% / 3 - 60px);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .occupation-item:last-child {
   margin: 0;
@@ -291,6 +291,7 @@ img {
   padding-bottom: 60px;
 }
 .footer-logo {
+  display: block;
   padding-bottom: 0px;
   padding-top: 0px;
   margin-right: 0px;
@@ -383,6 +384,11 @@ img {
 }
 /* Наши работы */
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -394,13 +400,11 @@ img {
   padding-left: 0;
   margin-bottom: 50px;
 }
-.unknown {
-  display: none;
-}
+
 .work-item {
-  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .work-item:nth-child(3n) {
   margin-right: 0;
